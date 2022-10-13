@@ -1,0 +1,98 @@
+.profile-container {
+  border: 1px solid #143d59;
+  border-radius: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.profile-card > div {
+  margin: 2rem;
+}
+
+.profile-card .photo input {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.profile-card .actions {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-card .photo {
+  position: relative;
+  border: 1px solid #143d59;
+  border-radius: 50px;
+  padding: 2.6rem;
+  color: #e4ac00;
+  background-color: #143d59;
+  font-size: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 35%;
+  height: 208px;
+}
+.card-img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-card .photo img {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-card .photo #name {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.profile-card .photo:before {
+  content: "";
+  background-image: url("../../assets/images/upload.png");
+  background-repeat: no-repeat;
+  background-size: 55px 55px;
+  background-position: center;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.profile-card .photo:hover:before {
+  opacity: 1;
+}
+
+.profile-card .photo:hover img {
+  display: none;
+}
+.profile-card .photo:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card-item {
+  border: 1px solid #143d59;
+  border-radius: 1rem;
+  padding: 1rem;
+}

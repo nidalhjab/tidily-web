@@ -1,0 +1,13 @@
+label {
+  color: #143d59;
+}
+input {
+  display: block;
+  width: 100%;
+  border: 1px solid #143d59;
+  border-radius: 7px;
+  background-color: #ecc85ae8;
+}
+.error {
+  color: rgb(252, 54, 54);
+}

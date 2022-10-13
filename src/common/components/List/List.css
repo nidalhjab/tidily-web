@@ -1,0 +1,56 @@
+.list-container {
+  padding: 1rem;
+  background-color: rgba(229, 240, 229, 0.7);
+  border: 1px;
+  border-radius: 15px;
+  width: 20%;
+}
+.list-container:hover {
+  background-color: rgba(229, 240, 229, 1);
+}
+
+.list-container .icon {
+  font-size: 1.5rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 2rem;
+}
+.list-content {
+  font-size: 1.5rem;
+}
+
+.add-button {
+  text-align: center;
+  padding: 0.5rem;
+}
+.add-button button:hover {
+  cursor: pointer;
+}
+.add-button button:hover:active {
+  cursor: pointer;
+  transform: translateY(1.5px);
+}
+.area-button {
+  text-align: center;
+}
+
+.cards-container > div {
+  margin: 5px;
+}
+.cards-container:hover {
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+}
+.icon svg {
+  margin: 5px;
+}
+.icon svg:hover {
+  cursor: pointer;
+}

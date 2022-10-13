@@ -1,0 +1,25 @@
+.footer-container {
+  display: none;
+  background-color: #143d59;
+  font-size: 2rem;
+  color: #e4ac00;
+  padding: 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+}
+.footer-sections {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+  padding: 1rem;
+}
+.copyRight {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+}

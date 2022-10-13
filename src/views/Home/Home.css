@@ -1,0 +1,58 @@
+.content {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 2rem;
+}
+.text {
+  width: 20%;
+  font-size: 4rem;
+  color: #143d59;
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+}
+.form-container {
+  border: 1px solid #143d59;
+  border-radius: 7%;
+  font-size: 1.8rem;
+  width: 30%;
+  padding: 2rem;
+  margin-right: 30rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form > div {
+  padding: 1.2rem;
+}
+.form #form-heading {
+  text-align: center;
+  color: #143d59;
+  font-size: 3rem;
+}
+.form #error {
+  text-align: center;
+  color: red;
+  font-size: 2rem;
+}
+
+#btn {
+  background-color: #143d59;
+  color: #e4ac00;
+  padding: 0.4rem;
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+  80% {
+    transform: translateY(5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
