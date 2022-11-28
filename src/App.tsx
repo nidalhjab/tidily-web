@@ -11,7 +11,7 @@ import { NavBar } from "./common/components/NavBar/NavBar";
 
 
 const link = from([
-  new HttpLink({ uri: "https://capable-fudge-16fb85.netlify.app/graphql" })
+  new HttpLink({ uri: "https://capable-fudge-16fb85.netlify.app" })
 ])
 
 const authLink = setContext((_, { headers }) => {
