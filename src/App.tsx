@@ -11,7 +11,7 @@ import { NavBar } from "./common/components/NavBar/NavBar";
 
 
 const link = from([
-  new HttpLink({ uri: "http://localhost:4000/graphql" })
+  new HttpLink({ uri: "https://stately-marigold-a733a6.netlify.app/graphql" })
 ])
 
 const authLink = setContext((_, { headers }) => {
