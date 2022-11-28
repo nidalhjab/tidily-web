@@ -6,7 +6,6 @@ import { setContext } from '@apollo/client/link/context';
 import { Profile } from "./views/profile/Profile";
 import { Footer } from "./common/components/Footer/Footer";
 import { NavBar } from "./common/components/NavBar/NavBar";
-import { GET_LISTS } from "./graphql/Queries";
 
 
 
