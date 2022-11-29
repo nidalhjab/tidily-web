@@ -11,7 +11,7 @@ import { NavBar } from "./common/components/NavBar/NavBar";
 
 
 const link = from([
-  new HttpLink({ uri: "https://tidily-server.vercel.app" })
+  new HttpLink({ uri: "http://localhost:4000/graphql" })
 ])
 
 const authLink = setContext((_, { headers }) => {
