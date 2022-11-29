@@ -11,7 +11,7 @@ import { NavBar } from "./common/components/NavBar/NavBar";
 
 
 const link = from([
-  new HttpLink({ uri: "https://tidily-server-production.up.railway.app/" })
+  new HttpLink({ uri: "https://tidily-server-production.up.railway.app" })
 ])
 
 const authLink = setContext((_, { headers }) => {
